@@ -1,0 +1,402 @@
+@import url("fonts/atyp/stylesheet.css");
+
+html,
+body {
+    font-family: 'Atyp';
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: url(images/background-overlay.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #D6F8FE;
+}
+
+h1 {
+    font-family: 'Atyp Display';
+    /* font-weight: bold; */
+}
+
+.bold {
+    font-family: 'Atyp Display';
+    font-weight: bold;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff253;
+    text-decoration: none;
+}
+
+.wonderland-wrapper {
+    /* position: absolute; */
+    background: url(images/base-lawn-2500.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 2500px;
+    height: 1796px;
+    padding-top: 50px;
+}
+
+
+
+.wonderland-logo {
+    max-width: 589px;
+    margin-left: 34vw;
+    margin-right: auto;
+
+}
+
+.wonderland-logo-2 {
+    max-width: 589px;
+    margin-left: 34vw;
+    margin-right: auto;
+
+}
+
+.wonderland-logo-mobile {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wonderland-logo-mobile img {
+    max-width: 100%;
+}
+
+.text-wrapper {
+    max-width: 1254px;
+    margin-top: 75px;
+    margin-left: 16.5vw;
+    margin-right: auto;
+}
+
+.text-wrapper-2 {
+    max-width: 1254px;
+    margin-top: 75px;
+    margin-left: 16.5vw;
+    margin-right: auto;
+}
+
+.text-wrapper-mobile {
+    max-width: 1254px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.page-copy {
+    font-size: 25px;
+}
+
+.device-support {
+    position: absolute;
+    top: 807px;
+    left: 790px;
+    transition: transform 1s;
+}
+
+.device-support img {
+    min-width: 95%;
+}
+
+.device-support:hover img {
+    transform: scale(1.1);
+}
+
+.phone {
+    position: absolute;
+    top: 883px;
+    left: 519px;
+    transition: transform 1s;
+    z-index: 6;
+}
+
+.phone img {
+    min-width: 95%;
+}
+
+.phone:hover img {
+    transform: scale(1.1);
+}
+
+.remote-access {
+    position: absolute;
+    top: 1115px;
+    left: 1186px;
+    transition: transform 1s;
+}
+
+.remote-access img {
+    min-width: 95%;
+}
+
+.remote-access:hover img {
+    transform: scale(1.1);
+}
+
+.video-meetings {
+    position: absolute;
+    top: 1124px;
+    left: 227px;
+    transition: transform 1s;
+}
+
+.video-meetings img {
+    min-width: 95%;
+}
+
+.video-meetings:hover img {
+    transform: scale(1.1);
+}
+
+.ticketing {
+    position: absolute;
+    top: 1372px;
+    left: 890px;
+    transition: transform 1s;
+}
+
+.ticketing img {
+    min-width: 95%;
+}
+
+.ticketing:hover img {
+    transform: scale(1.1);
+}
+
+.messages {
+    position: absolute;
+    top: 774px;
+    left: 1265px;
+    transition: transform 1s;
+}
+
+.messages img {
+    min-width: 95%;
+}
+
+.messages:hover img {
+    transform: scale(1.1);
+}
+
+.tooltip-devicesupport {
+    position: absolute;
+    top: 957px;
+    left: 1129px;
+    transition: transform 1s;
+}
+
+.tooltip-remoteaccess {
+    position: absolute;
+    width: 435px !important;
+    top: 1229px;
+    left: 1389px;
+    transition: transform 1s;
+
+}
+
+.tooltip-ticketing {
+    position: absolute;
+    top: 1368px;
+    left: 1050px;
+    transition: transform 1s;
+}
+
+.tooltip-phone {
+    position: absolute;
+    top: 987px;
+    left: 771px;
+    transition: transform 1s;
+    z-index: 7;
+}
+
+.tooltip-messages {
+    position: absolute;
+    width: 435px !important;
+    top: 747px;
+    left: 1400px;
+    transition: transform 1s;
+}
+
+.tooltip-videomeetings {
+    position: absolute;
+    top: 1227px;
+    left: 501px;
+    transition: transform 1s;
+}
+
+.tooltip-base {
+    transition: transform 1s;
+    width: 600px;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    /* display: none; */
+
+}
+
+
+
+/* .video-meetings:active~.tooltip-videomeetings {
+    display: block;
+} */
+
+.tooltip-base:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: -100px;
+    border-top: 80px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 80px solid white;
+    transform: rotate(0deg);
+}
+
+.tooltip-base-mobile {
+    transition: transform 1s;
+    max-width: 90%;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    margin: 50px auto;
+    /* display: none; */
+}
+
+.tooltip-base-mobile:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 0px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 80px solid white;
+    transform: rotate(-90deg);
+    margin-top: 40px;
+    left: 45%;
+}
+
+.hidden {
+    display: none;
+}
+
+.learn-btn {
+    /* height: 68px;
+    width: 194px; */
+    border-radius: 1.125rem;
+    font-size: 1.125rem;
+    padding: 1rem 1.25rem;
+    box-shadow: -6px 6px #fff253;
+    background-color: black;
+    color: white;
+    margin: 8px 0px;
+
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+
+}
+
+.footer {
+    min-width: 2500px;
+    min-height: 172px;
+    background-color: #000000;
+    z-index: 99;
+}
+
+
+
+.footer-mobile {
+    display:block;
+    min-width: 100%;
+    min-height: 172px;
+    background-color: #000000;
+    z-index: 99;
+}
+
+
+.footer-container {
+    max-width: 1488px;
+    margin-left: 9vw;
+    margin-right: auto;
+}
+
+
+.wonderland-wrapper-mobile {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.mobile-card {
+    max-width: 768px !important;
+    width: unset;
+    margin: 50px 15px;
+}
+
+.black-circle {
+    content: "\F285";
+    color: #ffffff;
+    height: 36px;
+    width: 36px;
+    padding: 6px 8px;
+    border-radius: 21px;
+    background-color: #000000;
+    margin: 10px;
+}
+
+.carousel-control-next-icon {
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    /* align-self: flex-end; */
+}
+
+@media only screen and (max-width: 500px) { 
+    
+.carousel-control-next-icon {
+    border: 4px solid black;
+    background-color: black;
+    border-radius: 15px;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+}
+}
+
+@media only screen and (max-width: 450px) { 
+    
+.carousel-control-next-icon {
+    height: 20px;
+    width: 20px;
+}
+}
+
+
+
+.carousel-control-next {
+    align-items: flex-start !important;
+    margin-right: 15px;
+    /* top: 10px !important; */
+}
